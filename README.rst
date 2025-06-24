@@ -4,6 +4,12 @@ spaceship-api
 API client for https://www.spaceship.com/
 
 
+API credentials
+***************
+
+Either set the environment variables for ``SPACESHIP_API_KEY`` and ``SPACESHIP_API_SECRET`` or supply your key and secret when instantiating the SpaceshipApiClient object.
+
+
 Usage
 *****
 
