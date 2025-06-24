@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "spaceship-api"
-version = "0.0.0"
+version = "0.1.0"
 description = "API for spaceship"
 authors = ["Benjamin Wiessneth <b.wiessneth@gmail.com>"]
 readme = "README.rst"
@@ -9,7 +9,7 @@ packages = [
 ]
 
 [tool.commitizen]
-version = "0.0.0"
+version = "0.1.0"
 update_changelog_on_bump = true
 version_files = [
     "pyproject.toml:^version",
@@ -39,9 +39,6 @@ flake8-pyproject = "^1.2.3"
 [build-system]
 requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
 build-backend = "poetry.core.masonry.api"
-
-[spaceship-api]
-dynamic = ["version"]
 
 [tool.pytest.ini_options]
 pythonpath = "spaceship_api"
