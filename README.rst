@@ -13,11 +13,7 @@ Either set the environment variables for ``SPACESHIP_API_KEY`` and ``SPACESHIP_A
 Usage
 *****
 
-Install this package
-
-```
-pip install spaceship-api
-```
+Install this package, e.g. ``pip install spaceship-api``.
 
 .. code-block:: python3
 
